@@ -50,7 +50,7 @@ main {
    margin: 10px 0 10px 0;
 }
 
-main::after {
+main::after, .footer-bottom::after {
    content: "";
    display: table;
    clear: both;
@@ -110,13 +110,30 @@ nav.nav-bar ul li a {
    text-shadow: 2px 2px lightgrey;
 }
 
-.card-style {
+.footer-style {
    background-color: white;
    border-radius: 5px;
-   padding: 10px;
+   color: lightgrey;
+}
+
+footer .footer-top h1 {
+   font-size: 16px;
+   font-style: italic;
+   border-bottom: 1px solid lightgrey;
+}
+
+.footer-bottom {
+   text-align: center;
+   font-size: 50px;
+}
+
+.footer-icon {
+   float: left;
+   width: 33.33%;
+   padding: 20px;
 }
 
 footer {
-   height: 100px;
-   background-color: yellow;
+   padding: 2px;
+   text-align: center;
 }
