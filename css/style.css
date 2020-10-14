@@ -96,6 +96,15 @@ nav.nav-bar ul li a {
    padding: 0 5px;
 }
 
+.content-left-col ul {
+   list-style: none;
+   color: #32CD32;
+}
+
+.content-left-col ul li {
+   padding: 5px;
+}
+
 .middle-column {
    width: 60%;
    float: left;
