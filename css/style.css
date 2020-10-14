@@ -50,7 +50,7 @@ main {
    margin: 10px 0 10px 0;
 }
 
-main::after, .footer-bottom::after {
+main::after, .footer-bottom::after, .title-left-col::after {
    content: "";
    display: table;
    clear: both;
@@ -78,9 +78,22 @@ nav.nav-bar ul li a {
 }
 
 
-.left-column {
+.left-column, .right-column {
    width: 15%;
    float: left;
+}
+
+#rss-icon {
+   float: left;
+   font-size: 30px;
+   color: orange;
+   width: 20%;
+}
+
+.title-left-col h2 {
+   float: left;
+   width: 80%;
+   padding: 0 5px;
 }
 
 .middle-column {
@@ -89,10 +102,6 @@ nav.nav-bar ul li a {
    margin: 0 5%;
 }
 
-.right-column {
-   width: 15%;
-   float: right;
-}
 
 .card {
    background-color: white;
