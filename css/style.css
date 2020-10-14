@@ -1,0 +1,93 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: url("../img/wooden-bkg.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.main-container {
+   width: 60%;
+   margin: 0 auto;
+}
+
+
+header {
+   height: 300px;
+   background-color: blue;
+}
+
+header .nav-bar {
+   background-color: grey;
+}
+
+header .header-image {
+   height: 260px;
+   background-color: pink;
+}
+
+main {
+   margin: 10px 0 10px 0;
+}
+
+main::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+nav.nav-bar ul {
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+}
+nav.nav-bar li {
+   list-style: none;
+   display: inline-block;
+   margin: 0 10px;
+}
+
+nav.nav-bar ul li a {
+   text-decoration: none;
+   color: white;
+}
+
+.left-column {
+   width: 15%;
+   float: left;
+}
+
+.middle-column {
+   width: 60%;
+   float: left;
+   margin: 0 5%;
+}
+
+.right-column {
+   width: 15%;
+   float: right;
+}
+
+.card {
+   background-color: white;
+   /* border: 1px solid black;
+   border-radius: 5px;
+   padding: 10px; */
+   margin-bottom: 20px;
+}
+
+.card-style {
+   background-color: white;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+footer {
+   height: 100px;
+   background-color: yellow;
+}
